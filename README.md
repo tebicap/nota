@@ -73,14 +73,39 @@ ES 🇪🇸: Esta app/script permite tomar notas en la consola linux y organizar
 
 ## Installation / Instalación
 
+Download a zip or clone the repo / Descarga un zip o clona el repositorio:
+
+```shell
+git clone https://github.com/tebicap/nota
+
+```
+Enter to the new folder 'nota' / Entra a la nueva carpeta 'nota'
+
+```shell
+cd nota
+
+```
+Give execute permissions to the script 'nota.sh' / Da permisos de ejecución al script 'nota.sh'
+
+```shell
+chmod +x nota.sh
+
+```
+
 To install run /  Para instalar ejecuta:
 
 ```shell
-# Example code
 ./nota.sh install
 
 # (you will be asked for superuser password to copy the script)
 # (se te pedirá contraseña de superusuario para copiar el script)
+```
+
+Or run the program portablely / O ejecuta el programa de forma portable
+
+```shell
+./nota.sh
+
 ```
 
 Estos son los archivos que se van a instalar automáticamente:
