@@ -78,6 +78,7 @@ Para instalar ejecuta './nota.sh install' (se te pedirá contraseña de superusu
 ```shell
 # Example code
 ./nota.sh install
+```
 
 Estos son los archivos que se van a instalar automáticamente:
 
