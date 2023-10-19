@@ -1,0 +1,13 @@
+#settings for the app
+
+#path to the notes (and settings)
+app_path=~/nota
+
+#application's language
+language=ES
+
+#first time executed
+firstime=yes
+
+#text editor
+text_editor=nano

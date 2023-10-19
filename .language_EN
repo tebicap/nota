@@ -1,0 +1,411 @@
+#dialogs ENGLISH
+
+
+#--------parameters
+
+#edit
+#
+lang_param_edit=edit
+
+#path
+#
+param_path=path
+
+#-------------------
+
+
+#Saved notes:
+#
+dialog_1="Saved notes:"
+
+
+#You can read the content of a note by indicating it's number, example: 'nota 1'
+#
+dialog_2="You can read the content of a note by indicating its number, example: 'nota 1'"
+
+#No notes saved
+#
+dialog_3="No notes saved"
+
+#You can add a new one with the following command
+#
+dialog_4="you can add a new one with the following command"
+
+#'note Note title; Content of the note after the first semicolon'
+#
+dialog_4b='nota "Note title; Content of the note after the first semicolon"'
+
+#The note
+#
+dialog_5="The note"
+
+#was saved
+#
+dialog_6="was saved"
+
+#The note could not be saved in
+#
+dialog_7="The note could not be saved in"
+
+#Nothing has been removed
+#
+dialog_8="Nothing has been removed"
+
+#The note has been deleted
+#
+dialog_9="The note has been deleted"
+
+#Do you want to delete this
+#
+dialog_10="Do you want to delete this"
+
+#note?
+#
+dialog_11="note?"
+
+#category and all its content?
+#
+dialog_12="category and all its content?"
+
+#Does not exist, nothing has been removed
+#
+dialog_13="Does not exist, nothing has been removed"
+
+#Do you want to move the note:
+#
+dialog_14="Do you want to move the note?"
+
+#to the category
+#
+dialog_15="to the category"
+
+#Nothing has moved
+#
+dialog_16="Nothing has moved"
+
+#The note has moved
+#
+dialog_17="The note has moved"
+
+#The note or category cannot be found to move it
+#
+dialog_18="The note or category cannot be found to move it"
+
+#No operation could be performed
+#
+dialog_19="No operation could be performed"
+
+#Get help with the following command:
+#
+dialog_20="Get help with the following command:"
+
+#Available languages:
+#
+dialog_21="Available languages:"
+
+#Note not found
+#
+dialog_22="Note not found"
+
+#you cannot edit a category (group of notes), try renaming it with this command:
+#
+dialog_23="you cannot edit a category (group of notes), try renaming it with this command:"
+
+#Edit
+#
+dialog_24="Edit"
+
+#It is going to be renamed
+#
+dialog_25="It is going to be renamed"
+
+#Canceled, nothing has been changed
+#
+dialog_26="Canceled, nothing has been changed"
+
+#Renamed to
+#
+dialog_27="Renamed to"
+
+#Write the new name
+#
+dialog_28="Write the new name"
+
+#(N to cancel)
+#
+dialog_29="(N to cancel)"
+
+#Path
+#
+dialog_30="Path"
+
+#Note not found
+#
+dialog_31="Note not found"
+
+#The note was elevated
+#
+dialog_32="The note was elevated"
+
+#or
+#
+dialog_33="or"
+
+#Command not found
+#
+dialog_34="Command not found"
+
+#The category
+#
+dialog_35="The category"
+
+#was created (or already existed)
+#
+dialog_36="was created (or already existed)"
+
+#Could not create category in
+#
+dialog_37="Could not create category in"
+
+
+
+
+
+## LANGUAGE dialog
+##################
+
+#< current
+#
+dialog_lang_1="< current"
+
+#Select language (by its index number):
+#
+dialog_lang_2="Select language (by its index number):"
+
+#The language has changed to
+#
+dialog_lang_3="The language has changed to"
+
+#Nothing has been changed
+#
+dialog_lang_4="Nothing has been changed"
+
+
+
+
+## INSTALATION dialog
+#####################
+
+#The installation dialog has been restored, now run the script again without parameters to install the script in your system
+#
+dialog_install_1="The installation dialog has been restored, now run the script again without parameters to install the script in your system"
+
+#It's already installed
+#
+dialog_install_2="It's already installed"
+
+#It looks like this is the first time you've run this script.
+#
+dialog_install_3="It looks like this is the first time you've run this script."
+
+#Do you want to install it on
+#
+dialog_install_4="Do you want to install it on"
+
+#your notes (and settings) will be saved in
+#
+dialog_install_5="your notes will be saved in"
+
+#script installed in
+#
+dialog_install_6="script installed in"
+
+#Could not install
+#
+dialog_install_7="Could not install"
+
+#The folder
+#
+dialog_install_8="The folder"
+
+#already exists, it will be used to save notes
+#
+dialog_install_9="already exists, it will be used to save notes"
+
+#The folder
+#
+dialog_install_10="The folder"
+
+#was successfully created
+#
+dialog_install_11="was successfully created"
+
+#Can't create directory
+#
+dialog_install_12="Can't create directory"
+
+#try creating it manually and try the installation again
+#
+dialog_install_13="try creating it manually and try the installation again"
+
+#Copied:
+#
+dialog_install_14="Copied:"
+
+#All ready
+#
+dialog_install_15="All ready"
+
+#does NOT exist, it is going to be created...
+#
+dialog_install_16="NO existe, se va a crear..."
+
+#Could not create directory
+#
+dialog_install_17="Could not create directory"
+
+#try creating it manually and try the installation again.
+#
+dialog_install_18="try creating it manually and try the installation again."
+
+#was successfully created
+#
+dialog_install_19="was successfully created"
+
+
+
+
+## HELP DIALOG
+##############
+
+#help
+#
+dialog_help_1="help"
+
+#USAGE:
+#
+dialgo_help_2="USAGE:"
+
+#Check the list of notes like this:
+#
+dialog_help_3="Check the list of notes like this:"
+
+#note
+#
+dialog_help_4="nota"
+
+#Notes are always displayed in order of creation (most recent first)
+#
+dialog_help_5="Notes are always displayed in order of creation (most recent first)"
+
+#Each note has a number with which to manipulate them, and each category a letter
+#
+dialog_help_6="Each note has a number with which to manipulate them, and each category a letter"
+
+#Check the content of a note by indicating its number:
+#
+dialog_help_7="Check the content of a note by indicating its number:"
+
+#Add a simple note like this:
+#
+dialog_help_8="Add a simple note like this:"
+
+#nota My first note
+#
+dialog_help_9="nota My first note"
+
+#(you can use quotes or not)
+#
+dialog_help_10="(you can use quotes or not)"
+
+#Add a note with content like this:
+#
+dialog_help_11="Add a note with content like this:"
+
+#nota "Title of the note; Content of the note after the semicolon, all in quotes"
+#
+dialog_help_12='nota "Title of the note; Content of the note after the semicolon, all in quotes"'
+
+#Add a category (to group notes) with a double semicolon at the end:
+#
+dialog_help_13="Add a category (to group notes) with a double semicolon at the end:"
+
+#nota "Urgent tasks;;"
+#
+dialog_help_14='nota "Urgent tasks;;"'
+
+#Move a note within a category by pointing to note number + category letter:
+#
+dialog_help_15="Move a note within a category by pointing to note number + category letter:"
+
+#nota 1 B
+#
+dialog_help_16="nota 1 B"
+
+#(move note number 1 to category B, you can use lowercase)
+#
+dialog_help_17="(move note number 1 to category B, you can use lowercase)"
+
+#Delete a note or category like this:
+#
+dialog_help_18="Delete a note or category like this:"
+
+#(it will be a letter if you want to delete a category)
+#
+dialog_help_19="(it will be a letter if you want to delete a category)"
+
+#It can also be removed with:
+#
+dialog_help_20="It can also be removed with:"
+
+#Consult this guide with:
+#
+dialog_help_21="Consult this guide with:"
+
+#SAY 'THANK YOU' BY SENDING BITCOIN ⚡️
+#
+dialog_help_22="SAY 'THANK YOU' BY SENDING BITCOIN ⚡️"
+
+#Edit a note like this
+#
+dialog_help_23="Edit a note like this"
+
+#Show note's path like this
+#
+dialog_help_24="Show note's path like this"
+
+#You can also use
+#
+dialog_help_25="You can also use"
+
+#Open file browser in the notes directory like this
+#
+dialog_help_26="Open file browser in the notes directory like this"
+
+#edit note 1
+#
+dialog_help_27="edit note 1"
+
+#Elevate a note like this
+#
+dialog_help_28="Elevate a note like this"
+
+#Rename the title of a note or category (group of notes) like this
+#
+dialog_help_29="Rename the title of a note or category (group of notes) like this"
+
+#rename note 1
+#
+dialog_help_30="rename note 1"
+
+#List and/or change available languages like this
+#
+dialog_help_31="List and/or change available languages like this"
+
+#Edit a note with any text editor like this
+#
+dialog_help_32="Edit a note with any text editor like this"
+
+#edit note 1 with the Kate text editor
+#
+dialog_help_33="edit note 1 with the Kate text editor"
