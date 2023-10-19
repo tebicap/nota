@@ -6,9 +6,16 @@ ES 🇪🇸: Esta app/script permite tomar notas en la consola linux y organizar
 
 ![List / lista](screenshots/listanotas_simple.png)
 
-## Description / Descripción
+## Table of Contents / Tabla de Contenidos
 
-Features:
+- [Features](#Features)
+- [Installation / Instalación](#installation--instalación)
+- [Usage / Uso](#usage--uso)
+- [Contributing / Contribuir](#contributing--contribuir)
+- [Screenshots / Capturas de pantalla](#Screenshots--Capturas-de-pantalla)
+- [License / Licencia](#license--licencia)
+
+## Features
 
 - 🇬🇧 Can be tested portable (no installation required)
 - 🇪🇸 Se puede probar de forma portable (no se requiere instalación)
@@ -55,83 +62,79 @@ Features:
 - 🇬🇧 Support for more than one language (Spanish and English for now, you can add your own language)
 - 🇪🇸 Soporte para más de un lenguaje (Español e Inglés por ahora, puedes añadir tu propio idioma)
 
+<br>
 
 🇬🇧 Notes are saved in the same directory where the script is located (if it is not installed)
 🇪🇸 Las notas se guardan en el mismo directorio donde se encuentra el script (si no está instalado)
 
-🇬🇧 Notes are saved within a directory on the user's Home (~/note) (if the script is installed)
-🇪🇸 Las notas se guardan dentro de un directorio en el Home del usuario (~/nota) (si el script está isntalado)
+🇬🇧 Notes are saved within a directory on the user's Home (\~/note) (if the script is installed)
+🇪🇸 Las notas se guardan dentro de un directorio en el Home del usuario (\~/nota) (si el script está isntalado)
 
-
-## Table of Contents / Tabla de Contenidos
-
-- [Installation / Instalación](#installation--instalación)
-- [Usage / Uso](#usage--uso)
-- [Contributing / Contribuir](#contributing--contribuir)
-- [Screenshots / Capturas de pantalla](#Screenshots--Capturas-de-pantalla)
-- [License / Licencia](#license--licencia)
 
 ## Installation / Instalación
 
-Para instalar ejecuta './nota.sh install' (se te pedirá contraseña de superusuario para copiar el script)
+To install run /  Para instalar ejecuta:
 
 ```shell
 # Example code
 ./nota.sh install
+
+# (you will be asked for superuser password to copy the script)
+# (se te pedirá contraseña de superusuario para copiar el script)
 ```
 
 Estos son los archivos que se van a instalar automáticamente:
 
-- nota.sh  >  '/usr/local/bin/nota'
-- '~/nota'  (Creación de nueva carpeta en HOME, si ya existe y tiene notas, estas no se van borrar)
-- .settings  >  '~/nota/.settings'
-- .language_EN  >  '~/nota/language_EN'
-- .language_ES  >  '~/nota/language_ES'
-- .language_... (todos los idiomas encontrados por el script)
+- nota.sh  >  **'/usr/local/bin/nota'**
+- **'~/nota'**  (a new folder in HOME if it doesn't exists, existing notes will not be deleted / Creación de nueva carpeta en HOME, no se borrarán notas ya existentes)
+- .settings  >  **'~/nota/.settings'**
+- .language_EN  >  **'~/nota/.language_EN'**
+- .language_ES  >  **'~/nota/.language_ES'**
+- .language_...
 
 ## Usage / Uso
 
 🇬🇧 ENGLISH: 🇬🇧
 
-Check the list of notes like this: <span style="color:orange">nota</span>
-    Notes are always displayed in order of creation (most recent first)
-    Each note has a number with which to manipulate them, and each category a letter
+Check the list of notes like this: `nota`<br>
+> Notes are always displayed in order of creation (most recent first)<br>
+> Each note has a number with which to manipulate them, and each category a letter
 
-Check the content of a note by indicating its number: <span style="color:orange">nota 1</span>
+Check the content of a note by indicating its number: `nota 1`<br>
 
-Add a simple note like this: <span style="color:orange">nota My first note</span> (you can use quotes or not)
-Add a note with content like this: <span style="color:orange">nota "Title of the note; Content of the note after the semicolon, all in quotes"</span>
-Add a category (to group notes) with a double semicolon at the end: <span style="color:orange">nota "Urgent tasks;;"</span>
+Add a simple note like this: `nota My first note` (you can use quotes or not)<br>
+Add a note with content like this: `nota "Title of the note; Content of the note after the semicolon, all in quotes"`<br>
+Add a category (to group notes) with a double semicolon at the end: `nota "Urgent tasks;;"`
 
-Move a note within a category by pointing to note number + category letter: <span style="color:orange">nota 1 B</span> (move note number 1 to category B, you can use lowercase)
+Move a note within a category by pointing to note number + category letter: `nota 1 B` (move note number 1 to category B, you can use lowercase)
 
-Delete a note or category like this: <span style="color:orange">nota -d 1</span> (it will be a letter if you want to delete a category)
-    It can also be removed with: <span style="color:orange">-d -del -delete -r -remove</span>
+Delete a note or category like this: `nota -d 1` (it will be a letter if you want to delete a category)<br>
+> It can also be removed with: `-d -del -delete -r -remove`
 
-Edit a note like this: <span style="color:orange">nota -edit 1</span>  (edit note 1)
-    You can also use <span style="color:orange">-e edit</span>
+Edit a note like this: `nota -edit 1`  (edit note 1)<br>
+> You can also use `-e edit`
 
-Edit a note with any text editor like this: <span style="color:orange">nota -edit 1 kate</span> (edit note 1 with the Kate text editor)
-    You can also use <span style="color:orange">-e edit</span>
+Edit a note with any text editor like this: `nota -edit 1 kate` (edit note 1 with the Kate text editor)<br>
+> You can also use `-e edit`
 
-Rename the title of a note or category (group of notes) like this: <span style="color:orange">nota -rename 1</span>  (rename note 1)
-    You can also use <span style="color:orange">-name</span>
+Rename the title of a note or category (group of notes) like this: `nota -rename 1`  (rename note 1)<br>
+> You can also use `-name`
 
-Show note's path like this: <span style="color:orange">nota -path 1</span> (the path will be printed)
-    You can also use <span style="color:orange">-p path</span>
+Show note's path like this: `nota -path 1` (the path will be printed)<br>
+> You can also use `-p path`
 
-Open file browser in the notes directory like this: <span style="color:orange">nota -browser</span>
-    You can also use <span style="color:orange">-b -fb</span>
+Open file browser in the notes directory like this: `nota -browser`<br>
+> You can also use `-b -fb`
 
-Elevate a note like this: <span style="color:orange">nota -touch 4</span>
-    You can also use <span style="color:orange">-t -up -u</span>
+Elevate a note like this: `nota -touch 4`<br>
+> You can also use `-t -up -u`
 
-List and/or change available languages like this: <span style="color:orange">nota -language</span>
-    You can also use <span style="color:orange">-l -lang</span>
+List and/or change available languages like this: `nota -language`<br>
+> You can also use `-l -lang`
 
-Consult this guide with: <span style="color:orange">nota --help</span>  (or -h; -help; help)
+Consult this guide with: `nota --help`  (or -h; -help; help)
 
-SAY 'THANK YOU' BY SENDING BITCOIN ⚡
+SAY '**THANK YOU**' BY SENDING BITCOIN ⚡ <br>
 https://coinos.io/estebanc
 -
 - Or Paypal: https://www.paypal.com/donate?token=VDf-ktQ3juHmTEVXNyI0fIuPmGqSfUe6lCcZh5bdsvdSytsdH5w0rcFq1jcUEiBP_Xx1X6skMcVo_moF
@@ -142,48 +145,48 @@ https://coinos.io/estebanc
 
 🇪🇸 ESPAÑOL: 🇪🇸
 
-Consulta la lista de notas así: <span style="color:orange">nota</span>
-    Las notas siembre se muestran por orden de creación (primero las más recientes)
-    Cada nota tiene un número con el que poder manupularlas, y cada categoría una letra
+Consulta la lista de notas así: `nota`<br>
+> Las notas siembre se muestran por orden de creación (primero las más recientes)<br>
+> Cada nota tiene un número con el que poder manupularlas, y cada categoría una letra
 
-Consulta el contenido de una nota señalando su número: <span style="color:orange">nota 1</span>
+Consulta el contenido de una nota señalando su número: `nota 1`
 
-Añade una nota simple así: <span style="color:orange">nota Mi primer nota</span> (puedes usar comillas o no)
-Añade una nota con contenido así: <span style="color:orange">nota "Título de la nota; Contenido de la nota después del semicolon, todo entre comillas"</span>
-Añade una categoría (para agrupar notas) con doble punto y coma al final: <span style="color:orange">nota "Tareas urgentes;;"</span>
+Añade una nota simple así: `nota Mi primer nota` (puedes usar comillas o no)<br>
+Añade una nota con contenido así: `nota "Título de la nota; Contenido de la nota después del semicolon, todo entre comillas"`<br>
+Añade una categoría (para agrupar notas) con doble punto y coma al final: `nota "Tareas urgentes;;"`
 
-Mueve una nota dentro de una categoría señalando número de nota + letra de categoría: <span style="color:orange">nota 1 B</span> (mueve la nota número 1 a la categoría B, puedes usar minúsculas)
+Mueve una nota dentro de una categoría señalando número de nota + letra de categoría: `nota 1 B` (mueve la nota número 1 a la categoría B, puedes usar minúsculas)<br>
 
-Elimina una nota o categoría así: <span style="color:orange">nota -d 1</span> (será una letra si quieres eliminar una categoría)
-    También se puede eliminar con: <span style="color:orange">-d -del -delete -r -remove</span>
+Elimina una nota o categoría así: `nota -d 1` (será una letra si quieres eliminar una categoría)<br>
+> También se puede eliminar con: `-d -del -delete -r -remove`
 
-Edita una nota así: <span style="color:orange">nota -edit 1</span> (edita la nota 1)
-    También puedes usar <span style="color:orange">-e editar</span>
+Edita una nota así: `nota -edit 1` (edita la nota 1)<br>
+> También puedes usar `-e editar`
 
-Edita una nota con cualquier editor de texto así: <span style="color:orange">nota -edit 1 kate</span>  (edita la nota 1 con el editor de texto Kate)
-    También puedes usar <span style="color:orange">-e editar</span>
+Edita una nota con cualquier editor de texto así: `nota -edit 1 kate`  (edita la nota 1 con el editor de texto Kate)<br>
+> También puedes usar `-e editar`
 
-Renombra el título de una nota o categoría (grupo de notas) así: <span style="color:orange">nota -rename 1</span>  (renombra la nota 1)
-    También puedes usar <span style="color:orange">-name</span>
+Renombra el título de una nota o categoría (grupo de notas) así: `nota -rename 1`  (renombra la nota 1)<br>
+> También puedes usar `-name`
 
-Muestra la ruta de la nota así: <span style="color:orange">nota -path 1</span> (the path will be printed)
-    También puedes usar <span style="color:orange">-p -ruta ruta</span>
+Muestra la ruta de la nota así: `nota -path 1` (the path will be printed)<br>
+> También puedes usar `-p -ruta ruta`
 
-Abra el explorador de archivos en el directorio de notas así: <span style="color:orange">nota -browser</span>
-    También puedes usar <span style="color:orange">-b -fb</span>
+Abra el explorador de archivos en el directorio de notas así: `nota -browser`<br>
+> También puedes usar `-b -fb`
 
-Eleva una nota así: <span style="color:orange">nota -touch 4</span>
-    También puedes usar <span style="color:orange">-t -up -u </span>
+Eleva una nota así: `nota -touch 4`
+> También puedes usar `-t -up -u `
 
-Lista y/o cambia idiomas disponibles así: <span style="color:orange">nota -language</span>
-    También puedes usar <span style="color:orange">-l -lang</span>
+Lista y/o cambia idiomas disponibles así: `nota -language`<br>
+> También puedes usar `-l -lang`
 
-Consultar esta guía con: <span style="color:orange">nota --help</span>  (or -h; -help; ayuda)
-
-
+Consultar esta guía con: `nota --help`  (or -h; -help; ayuda)
 
 
-### DI 'GRACIAS' ENVIANDO BITCOIN ⚡
+
+
+### DI '**GRACIAS**' ENVIANDO BITCOIN ⚡ <br>
 https://coinos.io/estebanc
 -
 - Or Paypal: https://www.paypal.com/donate?token=VDf-ktQ3juHmTEVXNyI0fIuPmGqSfUe6lCcZh5bdsvdSytsdH5w0rcFq1jcUEiBP_Xx1X6skMcVo_moF
@@ -214,9 +217,37 @@ Ayúdame a traducir esta app a tu idioma, para ello puedes hacer una copia de cu
 
 ## Screenshots / Capturas de pantalla
 
+🇬🇧 Printing note list<br>
+🇪🇸 Imprimiendo lista de notas:<br>
 ![List / lista](screenshots/listanotas.png)
+
+🇬🇧 Changing language<br>
+🇪🇸 Cambiando idioma:<br>
 ![Languages / idiomas](screenshots/languages.png)
+
+🇬🇧 Taking a note with content<br>
+🇪🇸 Tomando una nota con contenido:<br>
 ![Adding a note / Creando una nota](screenshots/savednote_llist.png)
+
+🇬🇧 Viewing note content<br>
+🇪🇸 Viendo el contenido de una nota:<br>
 ![View content of a note / Ver contenido de una nota](screenshots/list_viewcontent.png)
+
+🇬🇧 Editing a note with the default editor (setted in '.settings' file)<br>
+🇪🇸 Editando una nota con el editor predeterminado (seteado en el archivo '.settings'):<br>
 ![Editing the content of a note / Editando el contenido de una nota](screenshots/edit_nano.png)
+
+🇬🇧 Editing a note with a different editor (Kate in this case)<br>
+🇪🇸 Editando una nota con un editor diferente (Kate en este caso):<br>
 ![Editing note with a different editor (Kate) / Editando una nota con un editor diferente (Kate) ](screenshots/editkate.png)
+
+---
+
+### Author: Esteban Capella (estebancapella.dg@gmail.com)
+### Date: Nov 2023
+### Description: take notes in bash
+
+SAY '**THANK YOU**' BY SENDING BITCOIN ⚡ <br>
+https://coinos.io/estebanc
+-
+- Or Paypal: https://www.paypal.com/donate?token=VDf-ktQ3juHmTEVXNyI0fIuPmGqSfUe6lCcZh5bdsvdSytsdH5w0rcFq1jcUEiBP_Xx1X6skMcVo_moF
