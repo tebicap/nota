@@ -4,7 +4,7 @@
 app_path=~/nota
 
 #application's language
-language=ES
+language=EN
 
 #first time executed
 firstime=yes
