@@ -162,7 +162,7 @@ Consult this guide with: `nota --help`  (or -h; -help; help)
 SAY '**THANK YOU**' BY SENDING BITCOIN ⚡ <br>
 https://coinos.io/estebanc
 -
-- Or Paypal: https://www.paypal.com/donate?token=VDf-ktQ3juHmTEVXNyI0fIuPmGqSfUe6lCcZh5bdsvdSytsdH5w0rcFq1jcUEiBP_Xx1X6skMcVo_moF
+- Or Paypal: https://www.paypal.com/donate/?hosted_button_id=DTG94EYGCN5PG
 
 
 -----
@@ -214,7 +214,7 @@ Consultar esta guía con: `nota --help`  (or -h; -help; ayuda)
 ### DI '**GRACIAS**' ENVIANDO BITCOIN ⚡ <br>
 https://coinos.io/estebanc
 -
-- Or Paypal: https://www.paypal.com/donate?token=VDf-ktQ3juHmTEVXNyI0fIuPmGqSfUe6lCcZh5bdsvdSytsdH5w0rcFq1jcUEiBP_Xx1X6skMcVo_moF
+- Or Paypal: https://www.paypal.com/donate/?hosted_button_id=DTG94EYGCN5PG
 
 
 ## Contributing / Contribuir
@@ -275,4 +275,4 @@ Ayúdame a traducir esta app a tu idioma, para ello puedes hacer una copia de cu
 SAY '**THANK YOU**' BY SENDING BITCOIN ⚡ <br>
 https://coinos.io/estebanc
 -
-- Or Paypal: https://www.paypal.com/donate?token=VDf-ktQ3juHmTEVXNyI0fIuPmGqSfUe6lCcZh5bdsvdSytsdH5w0rcFq1jcUEiBP_Xx1X6skMcVo_moF
+- Or Paypal: https://www.paypal.com/donate/?hosted_button_id=DTG94EYGCN5PG
