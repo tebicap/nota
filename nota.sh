@@ -222,7 +222,7 @@ imprimir_uso_basico(){
     echo -e "\n    $dialog_help_22" #dialog_help_22 = SAY 'THANK YOU' BY SENDING BITCOIN
     echo -e "    -$cyan https://coinos.io/estebanc $coloroff"
     echo "    -"
-    echo -e "    - Or Paypal: https://www.paypal.com/donate?token=VDf-ktQ3juHmTEVXNyI0fIuPmGqSfUe6lCcZh5bdsvdSytsdH5w0rcFq1jcUEiBP_Xx1X6skMcVo_moF"
+    echo -e "    - Or Paypal: https://www.paypal.com/donate/?hosted_button_id=DTG94EYGCN5PG"
 
     echo "" #esto es un separador
 }
